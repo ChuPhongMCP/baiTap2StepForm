@@ -1,0 +1,130 @@
+.formSignin {
+  margin-top: 50px;
+  max-width: 330px;
+  height: 750px;
+  padding: 10px;
+  background-image: url("assets/images/form.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.back {
+  width: fit-content;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  margin-top: 150px;
+  color: white;
+  text-align: left;
+}
+
+.invalidFeedback {
+  color: red;
+  font-weight: bold;
+}
+
+.coverForm {
+  background-color: rgba(84, 92, 105, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coverFormSuccess {
+  background-color: rgba(84, 92, 105, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 230px;
+}
+
+.coverEmail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 100%;
+  background-color: #01c38e;
+  border: none;
+  font-weight: bold;
+  height: 50px;
+
+  &:hover {
+    width: 100%;
+    background-color: #01c38e;
+    border: none;
+    font-weight: bold;
+  }
+}
+
+.button:active,
+.button:focus {
+  background-color: #01c38e;
+}
+
+.or {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttonOther {
+  position: relative;
+  width: 100%;
+  background-color: #e5f8f2;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+  &:hover {
+    width: 100%;
+    background-color: #e5f8f2;
+    border: none;
+    font-weight: bold;
+    color: black;
+  }
+}
+
+.buttonOther:active,
+.buttonOther:focus {
+  background-color: #e5f8f2;
+  color: black;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+}
+
+.coverSignUp {
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.signUp:link,
+.signUp:visited {
+  color: #01c38e;
+  text-decoration: none;
+}
+
+.valueOfEmail {
+  font-weight: bold;
+}
